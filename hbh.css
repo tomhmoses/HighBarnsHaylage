@@ -8,6 +8,8 @@
 }
 
 .social-icon.tooltip-layout li a,
+.header-default.light-logo--version .manu-hamber.light-version,
 .header-default.light-logo--version .mainmenu-wrapper .page_nav ul.mainmenu li a {
     color: #062B46;
 }
+
