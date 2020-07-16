@@ -1,0 +1,13 @@
+.headroom--sticky.headroom--not-top {
+    backdrop-filter: blur(10px);
+}
+
+.headroom--sticky.headroom--not-top {
+    background: rgba(241, 241, 241, 0.4);
+    background-color: rgba(241, 241, 241, 0.4);
+}
+
+.social-icon.tooltip-layout li a,
+.header-default.light-logo--version .mainmenu-wrapper .page_nav ul.mainmenu li a {
+    color: #062B46;
+}
