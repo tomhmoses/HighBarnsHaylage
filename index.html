@@ -825,6 +825,20 @@
     <script src="js/main.js"></script>
     <script src="js/revoulation.js"></script>
 
+    <!-- Defer YouTube JavaScript Parsing -->
+    <script type="text/javascript">
+        function parseJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "https://www.youtube.com/yts/jsbin/www-embed-player-vflWGkbld/www-embed-player.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", parseJSAtOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", parseJSAtOnload);
+        else window.onload = parseJSAtOnload;
+        </script>
+
 </body>
 
 </html>
