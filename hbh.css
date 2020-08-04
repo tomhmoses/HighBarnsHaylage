@@ -13,3 +13,19 @@
     color: #062B46;
 }
 
+.top-image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.top-image {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    vertical-align:middle;
+    top: 50%;
+    transform: translateY(-50%);
+}
